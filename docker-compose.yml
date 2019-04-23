@@ -3,10 +3,14 @@ version: '3'
 services:
      frontend:
         image: weatherapp_frontend
+        #build: 
+            #context: ./app
         ports: 
         - "8000:8000"
 
      backend:
         image: weatherapp_backend
+       # build: 
+            #context: ./app
         ports: 
         - "9000:9000"

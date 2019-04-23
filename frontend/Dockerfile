@@ -1,5 +1,5 @@
 #Dockerfile (tag: v3)
-FROM node:latest
+#FROM node:latest
 
 #RUN npm install webpack -g
 

@@ -4,7 +4,10 @@ const TransferWebpackPlugin = require('transfer-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.jsx',
+  entry: {
+	  javascript: './src/index.jsx',
+	  html: '/src/public/index.html',
+  },
   resolve: {
     extensions: ['.js', '.jsx'],
   },
@@ -12,7 +15,7 @@ module.exports = {
     contentBase: 'src/public',
     historyApiFallback: true,
     port: 8000,
-    host: '0.0.0.0',
+    host: '192.168.99.100',
   },
   devtool: 'eval',
   output: {

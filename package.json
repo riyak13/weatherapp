@@ -1,0 +1,19 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "weather app to forecast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "node index.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyak13/weatherapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riyak13/weatherapp/issues"
+  },
+  "homepage": "https://github.com/riyak13/weatherapp#readme"
+}
